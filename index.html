@@ -1,13 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kinga's Todo List</title>
-    <link rel = "stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     
+    <h1>My Todo List</h1>
+    <img src = "https://getflywheel.com/layout/wp-content/uploads/2016/06/free-printable-to-do-lists-large-1-1800x500.jpg" height="200" width="1260">
+    <br><br>
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <div class="input-group-text" id="btnGroupAddon"></div>
+        </div>
+        <input type="text" class="form-control" placeholder="Add task" aria-label="Input group example"
+            aria-describedby="btnGroupAddon">
+    </div>
+    </div>
+
+    <h3>
+        <br>
+            <div class="alert alert-info" role="alert">
+            3 Outstanding Tasks!
+        </div>
+    </h3>
+    <div class="Tasks">
+        <div class="container">
+            <div class="row">
+                <div class="col-2"> 1
+                </div>
+
+                <div class="col-6"> Wash the dishes
+                </div>
+
+                <div class="col-2">
+                    <button type="button" class="btn btn-success"> Completed </button>
+                </div>
+
+                <div class="col-2">
+                    <button type="button" class="btn btn-danger">Delete</button><br>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2"> 2
+                </div>
+
+                <div class="col-6"> Walk the dog
+                </div>
+
+                <div class="col-2">
+                    <button type="button" class="btn btn-success"> Completed </button>
+                </div>
+
+                <div class="col-2">
+                    <button type="button" class="btn btn-danger">Delete</button><br>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2"> 3
+                </div>
+                <div class="col-6"> Complete homework for Tech Returners
+                </div>
+
+
+                <div class="col-2">
+                    <button type="button" class="btn btn-success"> Completed </button>
+                </div>
+
+                <div class="col-2">
+                    <button type="button" class="btn btn-danger">Delete</button><br>
+                    <br>
+                </div>
+              </div>
+        </div>
+    </div>
 </body>
+
 </html>
